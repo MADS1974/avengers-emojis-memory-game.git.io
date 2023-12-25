@@ -22,7 +22,7 @@ Este projeto foi construído utilizando uma combinação de tecnologias e lingua
 
 * **HTML e CSS:** A estrutura básica da página da web e a estilização foram desenvolvidas utilizando HTML e CSS para criar uma interface atraente e interativa.
 
-* **JavaScript:** A lógica do jogo e a interatividade foram implementadas com JavaScript, garantindo que as caixas se movam aleatoriamente, controlando o tempo e a pontuação do jogador.
+* **JavaScript:** A lógica do jogo e a interatividade foram implementadas com JavaScript.
 
 * **Biblioteca jQuery:** A biblioteca jQuery foi incorporada ao projeto para auxiliar no desenvolvimento de funcionalidades interativas e dinâmicas na interface do jogo.
 
