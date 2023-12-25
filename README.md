@@ -28,7 +28,7 @@ Este projeto foi construído utilizando uma combinação de tecnologias e lingua
 
 * Bootstrap Modal : Usei o plug-in modal JavaScript do Bootstrap para adicionar caixas de diálogo ao seu site jogo tornando-o uma experiência com conteúdo completamente personalizado.
 
-![HTML5][HTML5.com] ![CSS3][CSS3.com] ![JavaScript][js.com] [![JQuery][JQuery.com]][JQuery-url] ![Bootstrap](https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png)
+![HTML5][HTML5.com] ![CSS3][CSS3.com] ![JavaScript][js.com] [![JQuery][JQuery.com]][JQuery-url] ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
 
