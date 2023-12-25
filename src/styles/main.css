@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0479d9;
+}
+
+body {
+    background: url("../images/interface/background-avengers.jpg");
+    background-position: center;
+    background-size: cover;
+    user-select: none;
+}
+
+
+
+#container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-screen {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+#main-screen > img {
+    color: #0479d9;
+    width: 550px;
+    font-size: 3em;
+    padding: 5px 20px 5px;
+}
+
+#main-screen > .menu-game {
+    padding: 1em;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#main-screen > .menu-game > button {
+    margin: 5px;
+    width: 200px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.5em;
+    border: 1px solid #0479d9;
+    background: #e72c07;
+    color: #ebfc09fa;
+}
+
+button:active {
+    transform: translateX(1px) translateY(2px);
+}
+
+#main-screen > .menu-game > button:hover {
+    box-shadow: 0 0 5px #F26A4B;
+}

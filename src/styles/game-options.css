@@ -1,0 +1,55 @@
+
+#game-options {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/interface/avengers\ options.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 8px rgba(77, 79, 206, 0.4));
+}
+
+#game-options > fieldset {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 300px;
+    border: none;
+    font-size: 1.5em;
+}
+
+#game-options > fieldset > input[type=range], label, button {
+    color: #ebfc09fa;
+    margin: 4px;
+}
+
+#game-options > fieldset > input[type=range] {
+    appearance: none;
+    accent-color: #38413f;
+    background: #012326;
+    border: 1px solid #2b71f1;
+    border-radius: 1em;
+    height: 8px;
+}
+
+button {
+    margin-top: 5px;
+    padding: 5px;
+    width: 100px;
+    background-color: #e72c07;
+    border: 1px solid #9eeaff;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+button:hover {
+    box-shadow: 0 0 5px #ebfc09fa;
+}

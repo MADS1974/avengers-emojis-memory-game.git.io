@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::Avengers Memory Game::</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/game-options.css">
+    <link rel="stylesheet" href="./src/styles/game-board.css">
+    <link rel="stylesheet" href="./src/styles/animations.css">
+    <link rel="stylesheet" href="./src/styles/gameover.css">
+</head>
+<body>
+    <main id="container">
+        <section id="main-screen" class="">
+            <img src="./src/images/interface/avengers memory game-logo.png" alt="">
+            <div class="menu-game">
+                <button type="button" onclick="startGame()">PLAY</button>
+                <button type="button" onclick="showOptions()">OPTIONS</button>
+            </div>
+        </section>
+
+        <section id="game-options" class="view-hide">
+              
+                <label for="soundfx-volume">
+                    Volume
+                </label>
+                <input type="range" 
+                    name="soundfx-volume" 
+                    id="soundfx-volume" 
+                    value="8" 
+                    min="0" 
+                    max="10" 
+                    step="0.5"
+                >
+            <button type="button" onclick="closeOptions()">OK</button>
+        </section>
+
+        <section id="game-board" class="view-hide">
+            <div id="game-board_board">
+                <!-- gameboard here-->
+            </div>
+        </section>
+
+        <section id="game-over" class="view-hide">
+            <button type="button" onclick="reloadGame()">OK</button>
+        </section>
+    </main>
+    <script src="src/scripts/engine_consts.js"></script>
+    <script src="src/scripts/engine.js"></script>
+    <script src="src/scripts/gameboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+#game-board_board {
+    padding: 10px;
+    width: 470px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 109, 128, .4);
+    border: 2px solid rgb(172, 54, 18);
+    box-shadow: inset 0 0 4px #ebfc09fa;
+}
+
+#game-board_board > .game-card {
+    margin: 15px;
+    width: 80px;
+    min-width: 80px;
+    height: 80px;
+    max-height: 80px;
+    background-color: #F26A4B;
+    background-image: url("../images/interface/avengers\ card.png");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 0px 8px rgba(128, 167, 240, 0.377));
+    user-select: none;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+}
+
+#game-board_board > .game-card > img {
+    width: 100%; 
+    -webkit-user-drag: none;
+}
+
+
+#container .view-hide {
+    display: none;
+}
+
+#game-board_board .initial-card-hide {
+    opacity: 0%;
+}
+
+#game-board_board .card-show {
+    animation: showContentCard;
+    animation-duration: 250ms;
+    transform: rotateY(180deg);
+}
+
+#game-board_board > .card-show::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("../images/interface/avengers\ card.png");
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+
+#game-board_board .card-show.box-open {
+    transform: rotateY(0deg);
+}
+
+#game-board_board .box-open::after, .box-match::after {
+    transform: rotateY(180deg);
+}
+
+#game-board_board .end-game-card-animation {
+    animation: endGameAnimation;
+    animation-duration: 1000ms;
+}

@@ -1,0 +1,18 @@
+#game-over {
+    background-color: transparent;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/interface/avengers-inicio.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0 0 8px rgba(29, 114, 243, 0.4));
+}
+
+#game-over > p {
+    margin: 10px;
+}
