@@ -1,7 +1,7 @@
 </h1>
 
 <p align="center">
-  <a href="L I N K">🔗 Live Preview</a>   |   
+  <a href="https://mads1974.github.io/avengers-emojis-memory-game.git.io/">🔗 Live Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;   
   <a href="#-projeto"> 🖥️ Projeto</a>   |   
   <a href="#-tecnologias">🚀 Tecnologias</a>
 </p>
